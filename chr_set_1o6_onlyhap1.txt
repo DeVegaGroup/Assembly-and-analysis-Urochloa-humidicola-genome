@@ -1,0 +1,6 @@
+1A_hap1 1B_hap1	1C_hap1
+2A_hap1 2B_hap1	2C_hap1
+3A_hap1 3B_hap1	3C_hap1
+4A_hap1 4B_hap1	4C_hap1
+5A_hap1 5B_hap1	5C_hap1
+6A_hap1 6B_hap1	6C_hap1

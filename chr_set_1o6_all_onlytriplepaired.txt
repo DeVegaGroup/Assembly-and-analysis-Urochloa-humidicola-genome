@@ -1,0 +1,24 @@
+1A_hap1 1B_hap1	1C_hap1
+1A_hap2 1B_hap2	1C_hap2
+1B_hap3
+1B_hap4
+2A_hap1 2B_hap1	2C_hap1
+2A_hap2 2B_hap2	2C_hap2
+2B_hap3
+2B_hap4
+3A_hap1 3B_hap1	3C_hap1
+3A_hap2 3B_hap2	3C_hap2
+3B_hap3
+3B_hap4
+4A_hap1 4B_hap1	4C_hap1
+4A_hap2 4B_hap2	4C_hap2
+4B_hap3
+4B_hap4
+5A_hap1 5B_hap1	5C_hap1
+5A_hap2 5B_hap2	5C_hap2
+5A_hap3
+5B_hap3
+6A_hap1 6B_hap1	6C_hap1
+6A_hap2 6B_hap2	6C_hap2
+6A_hap3 
+6B_hap3
