@@ -1,3 +1,0 @@
-sbatch --mem 100G -c 8 --wrap "singularity exec ~/thecastle/singularities/orthofinder_3_0_1_b1.img orthofinder -t 8 -a 8 -M msa -f orthofinder3"
-
-
