@@ -1,0 +1,10 @@
+ $ for i in *fa; do sbatch --mem 100G -c1 --wrap "diamond blastp -d Angiosperms353.FAA -q ${i} -f 6 -o ${i}_over_353aa.tab"; done
+
+cat A_hap1_over_353aa.tab | awk '{if ($3>90) print $0}' | fgrep -v '.2' > A_hap1_over_353aa.tab.pid90.firstisoform.txt
+cut -f1 A_hap1_over_353aa.tab.pid90.firstisoform.txt > A_hap1_over_353aa.tab.pid90.firstisoform.txt.list.txt
+
+ $ for i in *tab; do cat ${i} | awk '{if ($3>90) print $0}' | fgrep -v '.2' | cut -f1 > ${i}.firstisoform.list.txt ;done
+
+ for i in *gff3.fa; do seqtk subseq ${i} ${i}_over_353aa.tab.firstisoform.list.txt > ${i}.353aa.fa; done
+
+
